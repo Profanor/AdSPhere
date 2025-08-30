@@ -1,5 +1,3 @@
-"use client";
-
 import { motion } from "framer-motion";
 import Header from "@/components/header";
 import Background from "@/components/background";
