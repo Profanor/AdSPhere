@@ -327,19 +327,21 @@ export default function InfluencersPage() {
             authentic partnerships that drive real results and build lasting
             customer relationships.
           </p>
-          <div className="flex gap-6 justify-center">
+
+          <div className="flex gap-6 justify-center items-center">
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="/#contact"
-              className="px-12 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 text-lg"
+              className="inline-flex items-center px-12 py-5 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 text-lg"
             >
               Contact Us Today
             </motion.a>
+
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 to="/"
-                className="px-12 py-5 bg-gray-100 text-gray-800 font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
+                className="inline-flex items-center px-12 py-5 bg-gray-100 text-gray-800 font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
               >
                 View All Services
               </Link>
